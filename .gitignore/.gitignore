@@ -1,0 +1,6 @@
+userlist = input('Enter your list: ')
+userlist = [int(x) for x in userlist.split(',')]
+totnum = 0
+for number in userlist:
+    totnum += number
+print ("The sum of the numbers is:", totnum)
